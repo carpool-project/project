@@ -71,7 +71,7 @@ header{
 }
 .col2 {
     
-    width: 50%;
+    width: 100%;
 }
 lable{
     display: table;
@@ -88,3 +88,4 @@ lable{
     vertical-align: baseline;
     background-color: transparent;
 }
+

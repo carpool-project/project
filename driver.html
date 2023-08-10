@@ -23,7 +23,7 @@
             <br>
             <tr>
             <td>
-           <label> Nom </label> 
+           <label> first name </label> 
            </td>
            <td>
            <input type="text" name="nom"  />
@@ -32,7 +32,7 @@
            </tr>
            <tr>
            <td>
-           <label> Prenom </label>
+           <label> last name </label>
            </td>
            <td>
            <input type="text" name="prenom"  />
@@ -50,7 +50,7 @@
           </tr>
           <tr>
            <td>
-           <label> Tel </label>
+           <label> phone number </label>
            </td>
            <td>
            <input type="text" name="tel"  />
@@ -63,7 +63,7 @@
           </tr>
           <tr>
            <td>
-           <label> Ville </label>
+           <label> location </label>
            </td>
            <td>
            <input type="text" name="ville"  />
@@ -72,7 +72,7 @@
           </tr>
            <tr>
            <td>
-           <label> Date de naissance </label>
+           <label> date </label>
            </td>
            <td>
           <input type="date" name="datenaiss">
@@ -89,26 +89,18 @@
            </td>
            </tr>
            <tr>
-           <td> Etat Fumeur </td>
+           <td> smoker </td>
            <td>
-            <input type="radio" name="fum" value="fume"  /> <label>Fumeur</label></td><td>
-            <input type="radio" name="fum" value="nofume"  /> <label>Non Fumeur</label>
+            <input type="radio" name="smoker" value="smoker"  /> <label>smoker</label></td><td>
+            <input type="radio" name="smoker" value="not smoker"  /> <label>not smoker</label>
             </td>
            </tr>
            
-           <tr>
-           <td>
-          <label> Login (Username) </label> 
-           </td>
-           <td>
-           <input type="text" name="user" required >
-           </br>
-           </td>
-           </tr>
+           
            
            <tr>
            <td>
-          <label> Mot de passe </label> 
+          <label> password </label> 
            </td>
            <td>
            <input type="password" name="pswd"  required/>
@@ -118,8 +110,17 @@
         </div>
         <div class="clearfix"></div>
         </div>
+        <div class="container">
+            <div class="col">
+                
+                    <button value="sub" name="ok" type="submit" class="btn"> submit  </button>
+                    
+            </div>
+        </div>
+        
 
     </section>
+
     <script src="KeepTrack.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
